@@ -1,0 +1,174 @@
+body{
+  margin:0;
+  font-family:Arial,Helvetica,freesans,sans-serif;
+}
+
+/*centers in the middle */ 
+.fixed-width{
+  width:1000px;
+  margin:0 auto;
+}
+
+.top-bar{
+  background-color:white;
+  width:100%;
+  height:40px;
+  color:black;
+}
+
+#bold{
+  font-weight:bold;
+  font-size:1.3em;
+}
+
+.top-bar ul{
+  margin:0;
+  padding:0;
+}
+
+.top-bar ul li{
+  float:left;
+  list-style:none;
+  font-weight:bold;
+  font-size:1em;
+  border-right:1px solid #B4B4B4;
+  padding:10px 20px 10px 20px;
+}
+
+.news-bar{
+  background-color:#BB1919;
+  width:100%;
+  height:60px;
+  color:white;
+}
+
+.news-bar p{
+  margin:0;
+  padding:0;
+  font-size:2.5em;
+  font-family:Arial;
+  position:relative;
+  right:2px;
+}
+
+
+.category-bar{
+  background-color:#A91717;
+  width:100%;
+  height:30px;
+  color:white;
+}
+
+.category-bar ul{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+
+.category-bar ul li{
+  float:left;
+  font-family:Arial;
+  font-size:0.9em;
+  position:relative;
+  right:10px;
+  top:2px;
+  border-right:1px solid #BB4545;
+  padding:3px 10px 9px 10px;
+}
+
+.location-bar{
+  background-color:white;
+  width:100%;
+  height:40px;
+  color:black;
+}
+
+.location-bar ul{
+  list-style:none;
+  margin:0;
+  padding:0; 
+}
+
+.location-bar ul li{
+  float:left;
+  font-family:Arial;
+  font-size:0.8em;
+  position:relative;
+  right:9px;
+  padding:10px 16px 0 12px;
+  border-right:1px solid #B4B4B4;
+  top:5px;
+}
+
+
+.content{
+  background-color:white;
+  width:100%;
+  color:#000000;
+}
+
+.content h1{
+  color:#696969;
+}
+
+.content p{
+  color:#696969;
+}
+
+.content a{
+  text-decoration:none;
+  color:black;
+  font-weight:bold;
+}
+
+.watch-listen{
+  float:right;
+  position:relative;
+  bottom:530px;
+  left:0px;
+  border-left:1px solid #B4B4B4;
+  padding:0 0 0 20px;
+}
+
+.watch-listen h2{
+  font-family:Arial;
+  font-weight:100;
+  margin:0 0 20px 0;
+  padding:0;
+}
+
+
+.watch-listen img{
+  position:relative;
+  right:4px;
+}
+
+#logo{
+  float:left;
+  padding-top:6px;
+  padding-right:10px;
+  padding-bottom:6px;
+  border-right:1px solid #B4B4B4;
+}
+
+#sign-in{
+  float:left;
+  font-weight:bold;
+  font-size:1em;
+  padding:10px 80px 10px 10px;
+  border-right:1px solid #B4B4B4;
+}
+
+#search-box{
+  float:left;
+  width:100px;
+  padding:10px;
+}
+
+#search-box input{
+  height:20px;
+  padding-bottom:2px;
+  background-image:url("http://static.bbci.co.uk/frameworks/barlesque/2.88.1/orb/4/img/orb-search-dark.png");
+  background-repeat:no-repeat;
+  background-position:right center;
+}
